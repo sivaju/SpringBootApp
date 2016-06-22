@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BootController
 {
-   @RequestMapping("/req")
+   @RequestMapping("/reqt")
     public String sample()
    {
        return "Spring Boot App";
